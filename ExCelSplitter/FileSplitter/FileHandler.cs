@@ -28,7 +28,7 @@ namespace WindowsFormsApplication1.FileSplitter
                 th.processTab();
             }
             Debug.Log("Completed processing" + filename);
-            workbook.Close();
+            workbook.Close(false);
             app.Quit();
         }
     }

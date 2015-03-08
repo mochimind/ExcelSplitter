@@ -11,7 +11,7 @@ namespace WindowsFormsApplication1.FileSplitter
     {
         public readonly static int STARTING_COLUMN = 2;
         public readonly static int BLANK_COLS_TILL_STOP = 2;
-        public readonly static char[] delimiter = new char[] {',' };
+        public readonly static char[] delimiter = new char[] {',',  '/', '\\', ':', '*', '?', '|'};
 
         private Excel.Range data;
 
@@ -24,9 +24,15 @@ namespace WindowsFormsApplication1.FileSplitter
             if (data.Cells[1, STARTING_COLUMN].value != null)
             {
                 functions = new List<string>();
-                string[] fsplit = ((string)data.Cells[1, STARTING_COLUMN].value).Split(delimiter);
+                string processStr = (string)data.Cells[1, STARTING_COLUMN].value; 
+                processStr = processStr.Replace('<', '(');
+                processStr = processStr.Replace('>', ')');
+                processStr = processStr.Replace('"', '\'');
+
+                string[] fsplit = processStr.Split(delimiter);
                 foreach (string token in fsplit)
                 {
+                    if (token.Trim().Length == 0) { continue; }
                     functions.Add(token.Trim());
                 }
             }

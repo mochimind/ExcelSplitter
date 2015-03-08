@@ -1,0 +1,11 @@
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\Interop.InteropExtensionLib.dll
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\ExcelSplitter.csproj.ResolveComReference.cache
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\WindowsFormsApplication1.Debug.resources
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\WindowsFormsApplication1.Main.resources
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\jxie\Documents\Visual Studio 2013\Projects\ExcelSplitter\ExcelSplitter\obj\Debug\ExcelSplitter.csproj.GenerateResource.Cache

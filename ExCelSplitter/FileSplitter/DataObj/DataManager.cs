@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1.FileSplitter
         public static FunctionData GetFunctionData(string _fname)
         {
             foreach (FunctionData token in functions) {
-                if (token.function == _fname) { return token; }
+                if (token.function.ToLower() == _fname.ToLower()) { return token; }
             }
 
             FunctionData newFunc = new FunctionData(_fname); 

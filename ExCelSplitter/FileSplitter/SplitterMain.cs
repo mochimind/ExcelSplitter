@@ -36,6 +36,7 @@ namespace WindowsFormsApplication1
                 new DataWriter(outDir, dat).writeData();
             }
 
+            GC.Collect();
             return true;
         }
     }
