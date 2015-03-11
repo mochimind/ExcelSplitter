@@ -53,6 +53,7 @@
     <Compile Include="FileSplitter\DataObj\DataEntry.cs" />
     <Compile Include="FileSplitter\DataObj\DataManager.cs" />
     <Compile Include="FileSplitter\DataObj\DataRow.cs" />
+    <Compile Include="FileSplitter\DataObj\FunctionalFilter.cs" />
     <Compile Include="FileSplitter\DataWriter.cs" />
     <Compile Include="FileSplitter\FileHandler.cs" />
     <Compile Include="FileSplitter\RowHandler.cs" />

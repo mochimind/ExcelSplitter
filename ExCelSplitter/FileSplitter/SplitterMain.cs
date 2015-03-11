@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WindowsFormsApplication1.FileSplitter;
+using ExcelSplitter.FileSplitter;
 
-namespace WindowsFormsApplication1
+namespace ExcelSplitter
 {
     class SplitterMain
     {

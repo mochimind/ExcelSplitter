@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Excel = Microsoft.Office.Interop.Excel;
 
-namespace WindowsFormsApplication1.FileSplitter
+namespace ExcelSplitter.FileSplitter
 {
     class DataWriter
     {

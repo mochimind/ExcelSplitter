@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApplication1.FileSplitter
+namespace ExcelSplitter.FileSplitter
 {
     class FunctionData
     {
@@ -19,6 +19,11 @@ namespace WindowsFormsApplication1.FileSplitter
 
         public void add(DataRow _row)
         {
+            // check for duplicates
+            foreach (DataRow token in entries)
+            {
+                if (token.data[0] == _row.data[0]) { return; }
+            }
             entries.Add(_row);
         }
     }

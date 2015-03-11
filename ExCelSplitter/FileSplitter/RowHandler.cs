@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
+using ExcelSplitter.FileSplitter.DataObj;
 
-namespace WindowsFormsApplication1.FileSplitter
+namespace ExcelSplitter.FileSplitter
 {
     class RowHandler
     {
@@ -33,7 +34,7 @@ namespace WindowsFormsApplication1.FileSplitter
                 foreach (string token in fsplit)
                 {
                     if (token.Trim().Length == 0) { continue; }
-                    functions.Add(token.Trim());
+                    functions.Add(FunctionalFilter.ProcessFunctionalName(token.Trim()));
                 }
             }
         }
@@ -60,6 +61,10 @@ namespace WindowsFormsApplication1.FileSplitter
                         break;
                     }
 
+                }
+                else
+                {
+                    blankColsSeen = 0;
                 }
                 // here we want to preserve the table structure so keep the blank columns
                 dr.addEntry(data.Cells[1, curCol]);
